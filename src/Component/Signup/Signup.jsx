@@ -238,6 +238,15 @@ const Signup = () => {
               <div className={styles.toLogin}>
                 <Link style={{fontSize: 16}} to="/login">Đăng nhập</Link>
               </div>
+              <button
+                    onClick={() => {
+                     navigate.goBack()
+                    }}
+                    className={styles.btn}
+                  >
+                    Đăng ký
+                  </button>
+
             </div>
           </>
         }

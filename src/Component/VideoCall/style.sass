@@ -1,0 +1,88 @@
+.video-call-component
+    .heading 
+        text-align: center 
+        align-self: flex-start 
+        margin-bottom: 0 
+    #videos 
+        position: relative 
+        height: 85vh 
+        width: 100vw 
+        margin: auto 
+        align-self: flex-start 
+        display: grid 
+        grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)) 
+        justify-items: center 
+        align-items: center 
+    .vid 
+        position: relative 
+        background-color: black 
+        border-width: 1px 
+        border-color: #e7e7e7
+        border-style: solid 
+        border-radius: 10px
+        overflow: hidden
+    .controls 
+        display: flex
+        align-items: center 
+        justify-content: center 
+        gap: 30px
+        z-index: 1 
+        width: 100%
+        position: absolute
+        left: 0
+        bottom: 0
+        p 
+            padding: 10px 
+            cursor: pointer 
+            background: #e62c2c
+            color: #F7F7F7 
+            border-width: 1px 
+            border-color: #F7F7F7 
+            border-style: solid 
+            &.on 
+                background: #F7F7F7 
+                color: #38373A 
+                border-width: 1px 
+                border-color: #38373A 
+                border-style: solid 
+    .join 
+        z-index: 1 
+        width: 30vw 
+        height: fit-content 
+        height: -moz-max-content 
+        top: 50vh 
+        left: 50vw 
+        width: 100%
+        max-width: 75vw 
+        input 
+            padding: 15px 
+            font-size: 1rem 
+            border-width: 1px 
+            border-color: #38373A 
+            border-style: solid 
+            width: 80% 
+            display: block 
+            margin: 50px auto 
+        button 
+            min-width: 200px 
+            padding: 12px 0 
+            text-align: center 
+            background-color: #38373A 
+            color: #F7F7F7 
+            border-width: 1px 
+            border-color: #F7F7F7 
+            border-style: solid 
+            font-size: 1rem 
+            font-weight: 400 
+            cursor: pointer 
+            display: block 
+            margin: 0 auto 
+.mic-ui, .camera-ui, .end-call
+    width: 40px
+    height: 40px
+    border-radius: 50%  
+.end-call
+    width: 60px
+    display: flex
+    justify-content: center
+    align-items: center

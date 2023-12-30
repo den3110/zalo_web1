@@ -240,7 +240,7 @@ const Signup = () => {
               </div>
               <button
                     onClick={() => {
-                     navigate.goBack()
+                     navigate(-1)
                     }}
                     className={styles.btn}
                   >

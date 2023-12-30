@@ -177,6 +177,16 @@ const ForgotPassword = (props) => {
                         >
                           Cập nhật
                         </Button>
+                        <div>
+                          <button
+                            onClick={() => {
+                            navigate(-1)
+                            }}
+                            className={styles.btn}
+                          >
+                            Quay lại
+                          </button>
+                        </div>
                       </div>
                     </>
                   )}

@@ -152,7 +152,7 @@ const AdvancedSettings= (props)=> {
     }, [props?.user?.isDeaf])
     return (
         <div style={{width: "100%", padding: 10}}>
-            <div style={{fontSize: 16, fontWeight: 600,marginBottom: 12 }}>Nâng cao</div>
+            {/* <div style={{fontSize: 16, fontWeight: 600,marginBottom: 12 }}>Nâng cao</div>
             <div style={{display: "flex", alignItems: 'center'}}>
             <Toggle
                 id='cheese-status'
@@ -164,7 +164,7 @@ const AdvancedSettings= (props)=> {
                 }}     
             />
             <label style={{marginLeft: 8}} htmlFor='cheese-status'>Chế độ giành cho người bệnh</label>
-            </div>  
+            </div>   */}
         </div>
     )
 }

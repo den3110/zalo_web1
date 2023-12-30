@@ -26,7 +26,7 @@ import { BiShowAlt, BiHide } from "react-icons/bi"
 
 const Signup = () => {
   // eslint-disable-next-line
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
   const { enqueueSnackbar } = useSnackbar();
   const [username, setUsername] = useState(() => "");
   const [phoneNumber, setPhoneNumber] = useState(() => "");
@@ -245,7 +245,7 @@ const Signup = () => {
                     className={styles.btn}
                   >
                     Quay lại
-                  </button>
+                </button>
 
             </div>
           </>

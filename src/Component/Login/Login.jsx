@@ -82,6 +82,14 @@ const Login = (props) => {
               <div className={styles.toLogin}>
                 <Link style={{fontSize: 16}} to="/signup">Đăng ký</Link>
               </div>
+               <button
+                    onClick={() => {
+                     navigate.goBack()
+                    }}
+                    className={styles.btn}
+                  >
+                    Quay lại
+                  </button>
             </div>
           </>
         }

@@ -244,7 +244,7 @@ const Signup = () => {
                     }}
                     className={styles.btn}
                   >
-                    Đăng ký
+                    Quay lại
                   </button>
 
             </div>
